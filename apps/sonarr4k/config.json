@@ -1,0 +1,19 @@
+{
+  "$schema": "../schema.json",
+  "name": "Sonarr4K",
+  "available": true,
+  "exposable": true,
+  "port": 8098,
+  "id": "sonarr4k",
+  "tipi_version": 15,
+  "version": "4.0.9",
+  "categories": ["media", "utilities"],
+  "description": "A second Sonnar instance for 4K content per Trash-Guides",
+  "short_desc": "TV show manager for Usenet and BitTorrent",
+  "author": "sonarr.tv",
+  "source": "https://github.com/Sonarr/Sonarr",
+  "form_fields": [],
+  "supported_architectures": ["arm64", "amd64"],
+  "created_at": 1691943801422,
+  "updated_at": 1724649301000
+}
