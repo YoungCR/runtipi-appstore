@@ -3,7 +3,7 @@
   "name": "Sonarr4K",
   "available": true,
   "exposable": true,
-  "port": 8098,
+  "port": 7098,
   "id": "sonarr4k",
   "tipi_version": 15,
   "version": "4.0.9",
