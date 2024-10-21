@@ -1,0 +1,36 @@
+{
+    "$schema": "../schema.json",
+    "name": "Notifiarr",
+    "available": true,
+    "exposable": true,
+    "port": 5454,
+    "id": "notifiarr",
+    "tipi_version": 15,
+    "version": "0.4.4",
+    "categories": ["automation", "utilities"],
+    "description": "The client enables content requests from Media Bot in your Discord Server and also provides reports for Plex usage and system health among many other features.",
+    "short_desc": "Official Notifiarr.com Client",
+    "author": "notifiarr.com",
+    "source": "https://github.com/Notifiarr/notifiarr",
+    "form_fields": [
+    {
+      "type": "text",
+      "label": "Notifiarr API Key",
+      "max": 50,
+      "min": 3,
+      "required": true,
+      "env_variable": "DN_API_KEY"
+    },
+    {
+      "type": "password",
+      "label": "UI Password",
+      "max": 50,
+      "min": 3,
+      "required": true,
+      "env_variable": "DN_UI_PASSWORD"
+    }
+  ],
+    "supported_architectures": ["arm64", "amd64"],
+    "created_at": 1729513271671,
+    "updated_at": 1729513271671
+  }
