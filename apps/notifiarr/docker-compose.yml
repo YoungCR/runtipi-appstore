@@ -9,7 +9,6 @@ services:
       - TZ=${TZ}
       - DN_API_KEY=${DN_API_KEY}
       - DN_QUIET=true
-      - DN_UI_PASSWORD={DN_UI_PASSWORD}
       - DN_LOG_FILE=/config/log
     dns:
       - ${DNS_IP}
