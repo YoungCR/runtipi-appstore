@@ -20,14 +20,6 @@
       "min": 3,
       "required": true,
       "env_variable": "DN_API_KEY"
-    },
-    {
-      "type": "password",
-      "label": "UI Password",
-      "max": 50,
-      "min": 3,
-      "required": true,
-      "env_variable": "DN_UI_PASSWORD"
     }
   ],
     "supported_architectures": ["arm64", "amd64"],
