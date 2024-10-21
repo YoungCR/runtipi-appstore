@@ -14,7 +14,7 @@ services:
       - ${APP_DATA_DIR}/data:/config
       - ${ROOT_FOLDER_HOST}/media:/media
     ports:
-      - ${APP_PORT}:8989
+      - ${APP_PORT}:8990
     restart: unless-stopped
     networks:
       - tipi_main_network
@@ -22,7 +22,7 @@ services:
       # Main
       traefik.enable: true
       traefik.http.middlewares.sonarr4k-web-redirect.redirectscheme.scheme: https
-      traefik.http.services.sonarr4k.loadbalancer.server.port: 8989
+      traefik.http.services.sonarr4k.loadbalancer.server.port: 8990
       # Web
       traefik.http.routers.sonarr4k-insecure.rule: Host(`${APP_DOMAIN}`)
       traefik.http.routers.sonarr4k-insecure.entrypoints: web
