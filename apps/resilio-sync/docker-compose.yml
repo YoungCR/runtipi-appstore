@@ -9,7 +9,7 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
       - ${APP_DATA_DIR}/data/downloads:/downloads
-      - ${APP_DATA_DIR}/data/sync:/sync
+      - /data/sync:/sync
     ports:
       - ${APP_PORT}:8888
       - 55555:55555
