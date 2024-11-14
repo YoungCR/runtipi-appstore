@@ -4,7 +4,7 @@
   "available": true,
   "exposable": true,
   "port": 7098,
-  "id": "sonarr",
+  "id": "sonarr4k",
   "tipi_version": 16,
   "version": "4.0.10",
   "categories": ["media", "utilities"],
