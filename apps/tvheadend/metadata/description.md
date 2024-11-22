@@ -24,7 +24,7 @@ https://docs.tvheadend.org/
 
 ## Folder Info
 
-| Root Folder                   | Container Folder |
-|-------------------------------|------------------|
-| /runtipi/app-data/sonarr/data | /config           |
-| /runtipi/media/data/recordings| /recordings      |
+| Root Folder                      | Container Folder |
+|----------------------------------|------------------|
+| /runtipi/app-data/tvheadend/data | /config           |
+| /runtipi/media/data/recordings   | /recordings      |
