@@ -1,0 +1,49 @@
+version: "2.4"
+services:
+# -- TVH IPTV CONFIG --
+  tic:
+    container_name: tvheadend
+    image: josh5/tvh-iptv-config:latest
+    restart: unless-stopped # Do not change this
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=${TZ} # Can use any env variable. See "environment variables" section in the docs
+      - SKIP_MIGRATIONS=false # Skips the DB migrate command execution on container startup
+      - RUN_PIP_INSTALL=false # Executes a pip install on container startup (might be required to generate the venv)
+      - ENABLE_APP_DEBUGGING=false # Enables debug logging for main application
+      - ENABLE_SQLALCHEMY_DEBUGGING=false # Enables debug logging for DB queries
+    volumes:
+      - ${APP_DATA_DIR}/data/tic-config:/config # Always start the path with ${APP_DATA_DIR}/data/. This will put all data inside app-data/my-app/data
+    ports:
+      - ${APP_PORT}:9985
+      - 9987:9987
+    depends_on:
+      - tvheadend
+    networks:
+      - tipi_main_network # That should not be changed
+    labels:
+      # Main
+      traefik.enable: true
+      traefik.http.middlewares.tic-web-redirect.redirectscheme.scheme: https
+      traefik.http.services.tic.loadbalancer.server.port: 9985 # Should be the same as the app internal port so for this example 9443
+      # Web
+      traefik.http.routers.tic-insecure.rule: Host(`${APP_DOMAIN}`)
+      traefik.http.routers.tic-insecure.entrypoints: web
+      traefik.http.routers.tic-insecure.service: tic
+      traefik.http.routers.tic-insecure.middlewares: tic-web-redirect
+      # Websecure
+      traefik.http.routers.tic.rule: Host(`${APP_DOMAIN}`)
+      traefik.http.routers.tic.entrypoints: websecure
+      traefik.http.routers.tic.service: tic
+      traefik.http.routers.tic.tls.certresolver: myresolver
+      # Local domain
+      traefik.http.routers.tic-local-insecure.rule: Host(`tic.${LOCAL_DOMAIN}`)
+      traefik.http.routers.tic-local-insecure.entrypoints: web
+      traefik.http.routers.tic-local-insecure.service: tic
+      traefik.http.routers.tic-local-insecure.middlewares: tic-web-redirect
+      # Local domain secure
+      traefik.http.routers.tic-local.rule: Host(`tic.${LOCAL_DOMAIN}`)
+      traefik.http.routers.tic-local.entrypoints: websecure
+      traefik.http.routers.tic-local.service: tic
+      traefik.http.routers.tic-local.tls: true

@@ -1,0 +1,19 @@
+{
+  "$schema": "../schema.json",
+  "name": "Cabernet",
+  "available": true,
+  "exposable": true,
+  "port": 6077,
+  "id": "cabernet",
+  "tipi_version": 16,
+  "version": "653bd040-ls236",
+  "categories": ["media", "utilities"],
+  "description": "Cabernet allows control of IPTV streams. Plugins supports DaddyLive, Pluto TV, XUMO, M3U/XMLTV.XML files (SamsungTV, STIRR, DistroTV, Plex TV)",
+  "short_desc": "IPTV Strean Provider",
+  "author": "cabernetwork",
+  "source": "https://github.com/cabernetwork/cabernet",
+  "form_fields": [],
+  "supported_architectures": ["arm64", "amd64"],
+  "created_at": 1732237079,
+  "updated_at": 1732237079
+}
