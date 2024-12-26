@@ -1,17 +1,5 @@
 # Tipi App Store ⛺️
 
-> [!WARNING]
-> Unfortunately, we are no longer accepting pull requests from external collaborators due to the high volume of PRs we have to deal with daily.
->
-> We have reached a point in which it has become too complicated to validate, test and maintain this huge amount of apps resulting in a poor experience for our users.
->
-> We are working at the moment to implement a new feature to allow you to add multiple app stores to your Runtipi instance, so you can add your own apps without the need to send a PR to our repository.
->
-> This feature will be available very soon, so stay tuned!
->
-> You can still follow this guide and add your custom apps to your own instance through the appsRepoUrl property in the settings.json file.
->
-
 This is the official repository for the Tipi App Store. It contains all the apps that are available for download on [Tipi](https://github.com/runtipi/runtipi).
 
 ## How to get started
@@ -32,7 +20,7 @@ If you want to see new apps on Tipi you can either:
 - [Join the Discord](https://discord.gg/Bu9qEPnHsc) members of the community will add it.
 - Fork this repo and create the necessary files for a Tipi app. Follow this [guide](https://www.runtipi.io/docs/contributing/adding-a-new-app)`
 
-## Apps available (267)
+## Apps available (270)
 
 | Name                                                                         | Description                                                                                                                                                         | Port  |
 | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
@@ -205,7 +193,7 @@ If you want to see new apps on Tipi you can either:
 | [NocoDB](https://github.com/nocodb/nocodb)                                   | Open Source Airtable Alternative                                                                                                                                    | 8146  |
 | [Node-RED](https://github.com/node-red/node-red)                             | Low-code programming for event-driven applications                                                                                                                  | 8111  |
 | [Notemark](https://github.com/enchant97/note-mark/)                          | Lighting fast web-based Markdown notes app.                                                                                                                         | 8567  |
-| [Notifiarr](https://github.com/Notifiarr/notifiarr)                          | This is the unified client for Notifiarr.com.                                                                                                                         | 5454  |
+| [notifiarr](https://hub.docker.com/r/golift/notifiarr)                       | Notifiarr client                                                                                                                                                    | 5454  |
 | [Ntfy](https://github.com/binwiederhier/ntfy)                                | Ntfy, a simple server for sending and receiving notification messages.                                                                                              | 8166  |
 | [Obsidian LiveSync](https://github.com/vrtmrz/self-hosted-livesync-server)   | LiveSync couchdb backend for Obsidian                                                                                                                               | 5984  |
 | [Octobot](https://github.com/Drakkar-Software/OctoBot)                       | Octobot is a powerful open-source cryptocurrency trading robot.                                                                                                     | 8825  |
@@ -265,7 +253,7 @@ If you want to see new apps on Tipi you can either:
 | [SiYuan](https://github.com/siyuan-note/siyuan)                              | SiYuan is a privacy-first personal knowledge management system.                                                                                                     | 6806  |
 | [SLSKD](https://github.com/slskd/slskd)                                      | P2P downloads                                                                                                                                                       | 5030  |
 | [Sonarr](https://github.com/Sonarr/Sonarr)                                   | TV show manager for Usenet and BitTorrent                                                                                                                           | 8098  |
-| [Sonarr4K](https://github.com/Sonarr/Sonarr)                                 | 4K TV show manager for Usenet and BitTorrent                                                                                                                           | 7098  |
+| [Sonarr4K](https://github.com/Sonarr/Sonarr)                                 | TV show manager for Usenet and BitTorrent                                                                                                                           | 7098  |
 | [Spacedrive](https://github.com/spacedriveapp/spacedrive)                    | Cross-platform file explorer                                                                                                                                        | 9300  |
 | [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker)       | Internet performance tracking application.                                                                                                                          | 8211  |
 | [Spoolman](https://github.com/Donkie/Spoolman)                               | Keep track of your inventory of 3D-printer filament spools                                                                                                          | 7912  |
@@ -284,6 +272,7 @@ If you want to see new apps on Tipi you can either:
 | [Transmission (VPN)](https://github.com/haugene/docker-transmission-openvpn) | BitTorrent client with VPN support.                                                                                                                                 | 9091  |
 | [Trilium](https://github.com/zadam/trilium)                                  | An open-source, self-hosted Notion alterative                                                                                                                       | 8267  |
 | [Tube Archivist](https://github.com/tubearchivist/tubearchivist)             | Your self-hosted YouTube media server                                                                                                                               | 8120  |
+| [Tvheadend](https://github.com/linuxserver/docker-tvheadend)                 | Live TV streaming server and DVR                                                                                                                                    | 9981  |
 | [Umami](https://github.com/umami-software/umami)                             | Umami is a simple, fast, privacy-focused alternative to Google Analytics.                                                                                           | 8147  |
 | [Unmanic](https://github.com/Unmanic/unmanic)                                | Unmanic - Library Optimiser.                                                                                                                                        | 8256  |
 | [Uptime Kuma](https://github.com/louislam/uptime-kuma)                       | A fancy self-hosted monitoring tool.                                                                                                                                | 8125  |
