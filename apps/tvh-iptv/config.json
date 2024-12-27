@@ -1,0 +1,19 @@
+{
+  "$schema": "../schema.json",
+  "name": "Tvheadend",
+  "available": true,
+  "exposable": true,
+  "port": 9981,
+  "id": "tvheadend",
+  "tipi_version": 16,
+  "version": "653bd040-ls236",
+  "categories": ["media", "utilities"],
+  "description": "Tvheadend is the leading TV streaming server and recorder for Linux supporting ATSC, DVB-C/C2, DVB-S/S2, DVB-T/T2, ISDB-T, IPTV, SAT>IP and HDHomeRun input sources. Tvheadend outputs HTTP (VLC, MPlayer), HTSP (Kodi, Movian) and SAT>IP streams, and can ingest multiple Electronic Program Guide (EPG) formats including over-the-air (OTA) broadcast data for DVB and ATSC, and OpenTV extensions like XMLTV and PyXML.",
+  "short_desc": "Live TV streaming server and DVR",
+  "author": "tvheadend.org",
+  "source": "https://github.com/linuxserver/docker-tvheadend",
+  "form_fields": [],
+  "supported_architectures": ["arm64", "amd64"],
+  "created_at": 1732237079,
+  "updated_at": 1732237079
+}

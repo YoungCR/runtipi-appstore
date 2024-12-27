@@ -1,0 +1,19 @@
+{
+  "$schema": "../schema.json",
+  "name": "jellystat",
+  "available": true,
+  "exposable": true,
+  "port": 3000,
+  "id": "jellystat",
+  "tipi_version": 12,
+  "version": "2.1.0",
+  "categories": ["media", "utilities"],
+  "description": "Jellystat is a free and open source Statistics App for Jellyfin! (This project is still in development - expect some weirdness)",
+  "short_desc": "Jellyfin Monitoring Utility",
+  "author": "cyfershepard",
+  "source": "https://hub.docker.com/r/cyfershepard/jellystat",
+  "form_fields": [],
+  "supported_architectures": ["arm64", "amd64"],
+  "created_at": 1691943801422,
+  "updated_at": 1731460776000
+}

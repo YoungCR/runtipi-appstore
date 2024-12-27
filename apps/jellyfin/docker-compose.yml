@@ -11,6 +11,9 @@ services:
       - PGID=1000
       - TZ=${TZ}
       - JELLYFIN_PublishedServerUrl=${APP_PROTOCOL:-http}://${APP_DOMAIN}/
+      - DOCKER_MODS=linuxserver/mods:jellyfin-opencl-intel
+    devices:
+      - /dev/dri:/dev/dri
     restart: "unless-stopped"
     ports:
       - ${APP_PORT}:8096
