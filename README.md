@@ -20,7 +20,7 @@ If you want to see new apps on Tipi you can either:
 - [Join the Discord](https://discord.gg/Bu9qEPnHsc) members of the community will add it.
 - Fork this repo and create the necessary files for a Tipi app. Follow this [guide](https://www.runtipi.io/docs/contributing/adding-a-new-app)`
 
-## Apps available (270)
+## Apps available (273)
 
 | Name                                                                         | Description                                                                                                                                                         | Port  |
 | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
@@ -46,6 +46,7 @@ If you want to see new apps on Tipi you can either:
 | [Booksonic](https://github.com/popeen/Booksonic-Air)                         | The selfhosted audiobook server                                                                                                                                     | 8040  |
 | [Bookstack](https://github.com/BookStackApp/BookStack)                       | BookStack is a self-hosted platform for organising and storing information.                                                                                         | 8119  |
 | [Budibase](https://github.com/Budibase/budibase)                             | Internal tools made easy.                                                                                                                                           | 8268  |
+| [Cabernet](https://github.com/cabernetwork/cabernet)                         | IPTV Strean Provider                                                                                                                                                | 6077  |
 | [Cal.com](https://github.com/calcom/cal.com)                                 | Scheduling infrastructure for absolutely everyone.                                                                                                                  | 8294  |
 | [Calibre-Web - EBook Reader](https://github.com/janeczku/calibre-web)        | Calibre-web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.                               | 8100  |
 | [ChangeDetection](https://github.com/dgtlmoon/changedetection.io)            | Website change detection.                                                                                                                                           | 8257  |
@@ -134,6 +135,7 @@ If you want to see new apps on Tipi you can either:
 | [Jellyfin](https://github.com/jellyfin/jellyfin)                             | A media server for your home collection                                                                                                                             | 8091  |
 | [Jellyfin Vue (Beta)](https://github.com/jellyfin/jellyfin-vue)              | A modern web client for Jellyfin based on Vue                                                                                                                       | 8202  |
 | [Jellyseerr](https://github.com/Fallenbagel/jellyseerr)                      | Fork of overseerr for Jellyfin support                                                                                                                              | 8163  |
+| [jellystat](https://hub.docker.com/r/cyfershepard/jellystat)                 | Jellyfin Monitoring Utility                                                                                                                                         | 3000  |
 | [Joplin Server](https://github.com/laurent22/joplin)                         | Note taking and to-do application with synchronisation                                                                                                              | 8099  |
 | [Kanboard](https://github.com/kanboard/kanboard)                             | Open Source Kanban Board                                                                                                                                            | 8010  |
 | [Kapowarr](https://github.com/Casvt/Kapowarr)                                | Kapowarr is a software to build and manage a comic book library, fitting in the \*arr suite of software.                                                            | 8194  |
@@ -272,6 +274,7 @@ If you want to see new apps on Tipi you can either:
 | [Transmission (VPN)](https://github.com/haugene/docker-transmission-openvpn) | BitTorrent client with VPN support.                                                                                                                                 | 9091  |
 | [Trilium](https://github.com/zadam/trilium)                                  | An open-source, self-hosted Notion alterative                                                                                                                       | 8267  |
 | [Tube Archivist](https://github.com/tubearchivist/tubearchivist)             | Your self-hosted YouTube media server                                                                                                                               | 8120  |
+| [Tvheadend](https://github.com/linuxserver/docker-tvheadend)                 | Live TV streaming server and DVR                                                                                                                                    | 9981  |
 | [Tvheadend](https://github.com/linuxserver/docker-tvheadend)                 | Live TV streaming server and DVR                                                                                                                                    | 9981  |
 | [Umami](https://github.com/umami-software/umami)                             | Umami is a simple, fast, privacy-focused alternative to Google Analytics.                                                                                           | 8147  |
 | [Unmanic](https://github.com/Unmanic/unmanic)                                | Unmanic - Library Optimiser.                                                                                                                                        | 8256  |
